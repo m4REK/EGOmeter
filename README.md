@@ -3,8 +3,7 @@ EGOmeter
 
 MoSy SoSe 14 Abschlussprojekt
 
-iOS App, die mittels einfacher mathematischen Trigonometrie und iPhone-Sensoren Distanz
-zwischen dem User und einem ,auf der gleichen Höhe, liegenden Objekt berechnet.
+EGOmeter ist eine einfache iOS App, die mithilfe der Echtzeit-Trigonometrie, Entfernung zwischen User und dem durch das Kameraobjektiv betrachtendem Objekt misst!
 
 Teammitglieder:
 Marko Vukadinovic,

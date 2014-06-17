@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD423DE01950968000F4B5EA /* tutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD423DDF1950968000F4B5EA /* tutorialViewController.m */; };
+		ADB23FD3193DFBC500E83BDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD2193DFBC500E83BDD /* Foundation.framework */; };
+		ADB23FD5193DFBC500E83BDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD4193DFBC500E83BDD /* CoreGraphics.framework */; };
+		ADB23FD7193DFBC500E83BDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD6193DFBC500E83BDD /* UIKit.framework */; };
+		ADB23FDD193DFBC500E83BDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB23FDB193DFBC500E83BDD /* InfoPlist.strings */; };
+		ADB23FDF193DFBC500E83BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB23FDE193DFBC500E83BDD /* main.m */; };
+		ADB23FE3193DFBC500E83BDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB23FE2193DFBC500E83BDD /* AppDelegate.m */; };
+		ADB23FE9193DFBC500E83BDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB23FE8193DFBC500E83BDD /* ViewController.m */; };
+		ADB23FEB193DFBC500E83BDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB23FEA193DFBC500E83BDD /* Images.xcassets */; };
+		ADB23FF2193DFBC500E83BDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FF1193DFBC500E83BDD /* XCTest.framework */; };
+		ADB23FF3193DFBC500E83BDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD2193DFBC500E83BDD /* Foundation.framework */; };
+		ADB23FF4193DFBC500E83BDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD6193DFBC500E83BDD /* UIKit.framework */; };
+		ADB23FFC193DFBC500E83BDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB23FFA193DFBC500E83BDD /* InfoPlist.strings */; };
+		ADB23FFE193DFBC500E83BDD /* EGOmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB23FFD193DFBC500E83BDD /* EGOmeterTests.m */; };
+		ADF7A15119505FE3003B9E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF7A15019505FE3003B9E53 /* Main.storyboard */; };
+		ADF7A15319506004003B9E53 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF7A15219506004003B9E53 /* target.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB23FF5193DFBC500E83BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB23FC7193DFBC500E83BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB23FCE193DFBC500E83BDD;
+			remoteInfo = EGOmeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD423DDE1950968000F4B5EA /* tutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tutorialViewController.h; sourceTree = "<group>"; };
+		AD423DDF1950968000F4B5EA /* tutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tutorialViewController.m; sourceTree = "<group>"; };
+		ADB23FCF193DFBC500E83BDD /* EGOmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGOmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB23FD2193DFBC500E83BDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB23FD4193DFBC500E83BDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB23FD6193DFBC500E83BDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB23FDA193DFBC500E83BDD /* EGOmeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGOmeter-Info.plist"; sourceTree = "<group>"; };
+		ADB23FDC193DFBC500E83BDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB23FDE193DFBC500E83BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB23FE0193DFBC500E83BDD /* EGOmeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGOmeter-Prefix.pch"; sourceTree = "<group>"; };
+		ADB23FE1193DFBC500E83BDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADB23FE2193DFBC500E83BDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADB23FE7193DFBC500E83BDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADB23FE8193DFBC500E83BDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADB23FEA193DFBC500E83BDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADB23FF0193DFBC500E83BDD /* EGOmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGOmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB23FF1193DFBC500E83BDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADB23FF9193DFBC500E83BDD /* EGOmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGOmeterTests-Info.plist"; sourceTree = "<group>"; };
+		ADB23FFB193DFBC500E83BDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB23FFD193DFBC500E83BDD /* EGOmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOmeterTests.m; sourceTree = "<group>"; };
+		ADF7A15019505FE3003B9E53 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ADF7A15219506004003B9E53 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB23FCC193DFBC500E83BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB23FD5193DFBC500E83BDD /* CoreGraphics.framework in Frameworks */,
+				ADB23FD7193DFBC500E83BDD /* UIKit.framework in Frameworks */,
+				ADB23FD3193DFBC500E83BDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB23FED193DFBC500E83BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB23FF2193DFBC500E83BDD /* XCTest.framework in Frameworks */,
+				ADB23FF4193DFBC500E83BDD /* UIKit.framework in Frameworks */,
+				ADB23FF3193DFBC500E83BDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB23FC6193DFBC500E83BDD = {
+			isa = PBXGroup;
+			children = (
+				ADB23FD8193DFBC500E83BDD /* EGOmeter */,
+				ADB23FF7193DFBC500E83BDD /* EGOmeterTests */,
+				ADB23FD1193DFBC500E83BDD /* Frameworks */,
+				ADB23FD0193DFBC500E83BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB23FD0193DFBC500E83BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB23FCF193DFBC500E83BDD /* EGOmeter.app */,
+				ADB23FF0193DFBC500E83BDD /* EGOmeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB23FD1193DFBC500E83BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB23FD2193DFBC500E83BDD /* Foundation.framework */,
+				ADB23FD4193DFBC500E83BDD /* CoreGraphics.framework */,
+				ADB23FD6193DFBC500E83BDD /* UIKit.framework */,
+				ADB23FF1193DFBC500E83BDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB23FD8193DFBC500E83BDD /* EGOmeter */ = {
+			isa = PBXGroup;
+			children = (
+				ADF7A15219506004003B9E53 /* target.png */,
+				ADB23FE1193DFBC500E83BDD /* AppDelegate.h */,
+				ADB23FE2193DFBC500E83BDD /* AppDelegate.m */,
+				ADF7A15019505FE3003B9E53 /* Main.storyboard */,
+				ADB23FE7193DFBC500E83BDD /* ViewController.h */,
+				ADB23FE8193DFBC500E83BDD /* ViewController.m */,
+				AD423DDE1950968000F4B5EA /* tutorialViewController.h */,
+				AD423DDF1950968000F4B5EA /* tutorialViewController.m */,
+				ADB23FEA193DFBC500E83BDD /* Images.xcassets */,
+				ADB23FD9193DFBC500E83BDD /* Supporting Files */,
+			);
+			path = EGOmeter;
+			sourceTree = "<group>";
+		};
+		ADB23FD9193DFBC500E83BDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB23FDA193DFBC500E83BDD /* EGOmeter-Info.plist */,
+				ADB23FDB193DFBC500E83BDD /* InfoPlist.strings */,
+				ADB23FDE193DFBC500E83BDD /* main.m */,
+				ADB23FE0193DFBC500E83BDD /* EGOmeter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB23FF7193DFBC500E83BDD /* EGOmeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB23FFD193DFBC500E83BDD /* EGOmeterTests.m */,
+				ADB23FF8193DFBC500E83BDD /* Supporting Files */,
+			);
+			path = EGOmeterTests;
+			sourceTree = "<group>";
+		};
+		ADB23FF8193DFBC500E83BDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB23FF9193DFBC500E83BDD /* EGOmeterTests-Info.plist */,
+				ADB23FFA193DFBC500E83BDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB23FCE193DFBC500E83BDD /* EGOmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB24001193DFBC500E83BDD /* Build configuration list for PBXNativeTarget "EGOmeter" */;
+			buildPhases = (
+				ADB23FCB193DFBC500E83BDD /* Sources */,
+				ADB23FCC193DFBC500E83BDD /* Frameworks */,
+				ADB23FCD193DFBC500E83BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGOmeter;
+			productName = EGOmeter;
+			productReference = ADB23FCF193DFBC500E83BDD /* EGOmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB23FEF193DFBC500E83BDD /* EGOmeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB24004193DFBC500E83BDD /* Build configuration list for PBXNativeTarget "EGOmeterTests" */;
+			buildPhases = (
+				ADB23FEC193DFBC500E83BDD /* Sources */,
+				ADB23FED193DFBC500E83BDD /* Frameworks */,
+				ADB23FEE193DFBC500E83BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB23FF6193DFBC500E83BDD /* PBXTargetDependency */,
+			);
+			name = EGOmeterTests;
+			productName = EGOmeterTests;
+			productReference = ADB23FF0193DFBC500E83BDD /* EGOmeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB23FC7193DFBC500E83BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Marko Vukadinovic";
+				TargetAttributes = {
+					ADB23FEF193DFBC500E83BDD = {
+						TestTargetID = ADB23FCE193DFBC500E83BDD;
+					};
+				};
+			};
+			buildConfigurationList = ADB23FCA193DFBC500E83BDD /* Build configuration list for PBXProject "EGOmeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB23FC6193DFBC500E83BDD;
+			productRefGroup = ADB23FD0193DFBC500E83BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB23FCE193DFBC500E83BDD /* EGOmeter */,
+				ADB23FEF193DFBC500E83BDD /* EGOmeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB23FCD193DFBC500E83BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF7A15319506004003B9E53 /* target.png in Resources */,
+				ADB23FEB193DFBC500E83BDD /* Images.xcassets in Resources */,
+				ADB23FDD193DFBC500E83BDD /* InfoPlist.strings in Resources */,
+				ADF7A15119505FE3003B9E53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB23FEE193DFBC500E83BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB23FFC193DFBC500E83BDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB23FCB193DFBC500E83BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB23FE9193DFBC500E83BDD /* ViewController.m in Sources */,
+				ADB23FE3193DFBC500E83BDD /* AppDelegate.m in Sources */,
+				AD423DE01950968000F4B5EA /* tutorialViewController.m in Sources */,
+				ADB23FDF193DFBC500E83BDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB23FEC193DFBC500E83BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB23FFE193DFBC500E83BDD /* EGOmeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB23FF6193DFBC500E83BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB23FCE193DFBC500E83BDD /* EGOmeter */;
+			targetProxy = ADB23FF5193DFBC500E83BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADB23FDB193DFBC500E83BDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB23FDC193DFBC500E83BDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADB23FFA193DFBC500E83BDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB23FFB193DFBC500E83BDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB23FFF193DFBC500E83BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADB24000193DFBC500E83BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB24002193DFBC500E83BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOmeter/EGOmeter-Prefix.pch";
+				INFOPLIST_FILE = "EGOmeter/EGOmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADB24003193DFBC500E83BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOmeter/EGOmeter-Prefix.pch";
+				INFOPLIST_FILE = "EGOmeter/EGOmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADB24005193DFBC500E83BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGOmeter.app/EGOmeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOmeter/EGOmeter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EGOmeterTests/EGOmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADB24006193DFBC500E83BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EGOmeter.app/EGOmeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOmeter/EGOmeter-Prefix.pch";
+				INFOPLIST_FILE = "EGOmeterTests/EGOmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB23FCA193DFBC500E83BDD /* Build configuration list for PBXProject "EGOmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB23FFF193DFBC500E83BDD /* Debug */,
+				ADB24000193DFBC500E83BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB24001193DFBC500E83BDD /* Build configuration list for PBXNativeTarget "EGOmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB24002193DFBC500E83BDD /* Debug */,
+				ADB24003193DFBC500E83BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB24004193DFBC500E83BDD /* Build configuration list for PBXNativeTarget "EGOmeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB24005193DFBC500E83BDD /* Debug */,
+				ADB24006193DFBC500E83BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB23FC7193DFBC500E83BDD /* Project object */;
+}

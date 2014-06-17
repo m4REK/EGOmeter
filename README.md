@@ -7,5 +7,5 @@ iOS App, die mittels einfacher mathematischen Trigonometrie und iPhone-Sensoren 
 zwischen dem User und einem ,auf der gleichen Höhe, liegenden Objekt berechnet.
 
 Teammitglieder:
-Marko Vukadinovic
+Marko Vukadinovic,
 Timo Luttmann

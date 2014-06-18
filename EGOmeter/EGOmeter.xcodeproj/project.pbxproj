@@ -21,6 +21,7 @@
 		ADB23FF4193DFBC500E83BDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB23FD6193DFBC500E83BDD /* UIKit.framework */; };
 		ADB23FFC193DFBC500E83BDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB23FFA193DFBC500E83BDD /* InfoPlist.strings */; };
 		ADB23FFE193DFBC500E83BDD /* EGOmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB23FFD193DFBC500E83BDD /* EGOmeterTests.m */; };
+		ADEC90F91951F15200574098 /* tutorialControler.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEC90F81951F15200574098 /* tutorialControler.png */; };
 		ADF5F0CC1950FED5002C430D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF5F0CA1950FED5002C430D /* Default.png */; };
 		ADF5F0CD1950FED5002C430D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF5F0CB1950FED5002C430D /* Default@2x.png */; };
 		ADF7A15119505FE3003B9E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF7A15019505FE3003B9E53 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		ADB23FF9193DFBC500E83BDD /* EGOmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGOmeterTests-Info.plist"; sourceTree = "<group>"; };
 		ADB23FFB193DFBC500E83BDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADB23FFD193DFBC500E83BDD /* EGOmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOmeterTests.m; sourceTree = "<group>"; };
+		ADEC90F81951F15200574098 /* tutorialControler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tutorialControler.png; path = ../tutorialControler.png; sourceTree = "<group>"; };
 		ADF5F0CA1950FED5002C430D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ADF5F0CB1950FED5002C430D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ADF7A15019505FE3003B9E53 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -121,7 +123,6 @@
 		ADB23FD8193DFBC500E83BDD /* EGOmeter */ = {
 			isa = PBXGroup;
 			children = (
-				ADF7A15219506004003B9E53 /* target.png */,
 				ADB23FE1193DFBC500E83BDD /* AppDelegate.h */,
 				ADB23FE2193DFBC500E83BDD /* AppDelegate.m */,
 				ADF7A15019505FE3003B9E53 /* Main.storyboard */,
@@ -138,6 +139,8 @@
 		ADB23FD9193DFBC500E83BDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADEC90F81951F15200574098 /* tutorialControler.png */,
+				ADF7A15219506004003B9E53 /* target.png */,
 				ADF5F0CA1950FED5002C430D /* Default.png */,
 				ADF5F0CB1950FED5002C430D /* Default@2x.png */,
 				ADB23FDA193DFBC500E83BDD /* EGOmeter-Info.plist */,
@@ -246,6 +249,7 @@
 				ADF5F0CC1950FED5002C430D /* Default.png in Resources */,
 				ADB23FEB193DFBC500E83BDD /* Images.xcassets in Resources */,
 				ADB23FDD193DFBC500E83BDD /* InfoPlist.strings in Resources */,
+				ADEC90F91951F15200574098 /* tutorialControler.png in Resources */,
 				ADF5F0CD1950FED5002C430D /* Default@2x.png in Resources */,
 				ADF7A15119505FE3003B9E53 /* Main.storyboard in Resources */,
 			);

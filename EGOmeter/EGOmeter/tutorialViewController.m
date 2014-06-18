@@ -29,6 +29,9 @@ double height;
 {
     [super viewDidLoad];
     
+    //weiterButton properties
+    _weiterButton.layer.borderColor = [[UIColor whiteColor]CGColor];
+    
     UIToolbar* toolbar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
     
     toolbar.items = [NSArray arrayWithObjects:
@@ -67,9 +70,5 @@ double height;
     return height;
 }
 
-
--(BOOL)shouldAutorotate{
-    return NO;
-}
 
 @end

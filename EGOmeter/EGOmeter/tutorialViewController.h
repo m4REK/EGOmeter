@@ -11,7 +11,9 @@
 @interface tutorialViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *heightInput;
+@property (weak, nonatomic) IBOutlet UIButton *weiterButton;
 
 -(double)getHeight;
+
 
 @end

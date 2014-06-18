@@ -103,10 +103,10 @@ double angle,result,thisHeight;
     
     
     if (result >=100) {
-        NSString *distance = [NSString stringWithFormat:@"Result: %0.1f m",result/100];
+        NSString *distance = [NSString stringWithFormat:@"Entfernung: %0.1f m",result/100];
         _result.text = distance;
     }else{
-        NSString *distance = [NSString stringWithFormat:@"Result: %0.1f cm",result];
+        NSString *distance = [NSString stringWithFormat:@"Entfernung: %0.1f cm",result];
         _result.text = distance;
     }
     

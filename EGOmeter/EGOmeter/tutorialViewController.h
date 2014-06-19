@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tutorialViewController : UIViewController
+@interface tutorialViewController : UIViewController{
+    NSTimer *checkingTimer;
+}
 
 @property (weak, nonatomic) IBOutlet UITextField *heightInput;
 @property (weak, nonatomic) IBOutlet UIButton *weiterButton;

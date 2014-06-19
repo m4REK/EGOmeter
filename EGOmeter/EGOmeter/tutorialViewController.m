@@ -40,6 +40,18 @@ double height;
                      [[UIBarButtonItem alloc]initWithTitle:@"Apply" style:UIBarButtonItemStyleDone target:self action:@selector(doneWithNumberPad)],
                      nil];
     self.heightInput.inputAccessoryView = toolbar;
+    
+checkingTimer = [NSTimer scheduledTimerWithTimeInterval:1.0/20.0 target:self selector:@selector(checkTextFieldForInput) userInfo:nil repeats:YES];
+}
+
+-(void)checkTextFieldForInput{
+    if (height <= 10) {
+        _weiterButton.enabled = NO;
+        _weiterButton.layer.borderColor = [[UIColor redColor]CGColor];
+    }else{
+        _weiterButton.layer.borderColor = [[UIColor greenColor]CGColor];
+        _weiterButton.enabled = YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +67,7 @@ double height;
     NSNumber *number = [nf numberFromString:self.heightInput.text];
    
     height = [number doubleValue] -10;
-    
+
     [self.heightInput resignFirstResponder];
     
 }

@@ -75,6 +75,7 @@ checkingTimer = [NSTimer scheduledTimerWithTimeInterval:1.0/20.0 target:self sel
 -(void)cancelNumberPad{
     [self.heightInput resignFirstResponder];
     self.heightInput.text = @"";
+    height = 0;
     
 }
 
